@@ -1,0 +1,38 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <title>Layer 1</title>
+        <text fill="#1b7ced" x="248.22209" y="107.86211" id="svg_1" font-size="24" font-family="'Open Sans'"
+            text-anchor="start" xml:space="preserve" stroke="#000"
+            transform="matrix(4.43271 0 0 4.43271 -871.909 -349.439)" font-weight="bold" font-style="normal"
+            stroke-width="0">O</text>
+        <text fill="#1b7ced" x="218.99793" y="173.44472" id="svg_2" font-size="24" font-family="'Open Sans'"
+            text-anchor="start" xml:space="preserve" stroke="#000"
+            transform="matrix(9.31667 0 0 9.31667 -1954.42 -1220.86)" font-weight="bold" font-style="normal"
+            stroke-width="0">4</text>
+        <text fill="#1b7ced" x="266.34776" y="107.86211" id="svg_4" font-size="24" font-family="'Open Sans'"
+            text-anchor="start" xml:space="preserve" stroke="#000"
+            transform="matrix(4.43271 0 0 4.43271 -871.909 -349.439)" font-weight="bold" font-style="normal"
+            stroke-width="0">o</text>
+        <text fill="#1b7ced" x="280.51904" y="107.86387" id="svg_5" font-size="24" font-family="'Open Sans'"
+            text-anchor="start" xml:space="preserve" stroke="#000"
+            transform="matrix(4.43271 0 0 4.43271 -871.909 -349.439)" font-weight="bold" font-style="normal"
+            stroke-width="0">p</text>
+        <text fill="#1b7ced" x="295.09649" y="107.86211" id="svg_6" font-size="24" font-family="'Open Sans'"
+            text-anchor="start" xml:space="preserve" stroke="#000"
+            transform="matrix(4.43271 0 0 4.43271 -871.909 -349.439)" font-weight="bold" font-style="normal"
+            stroke-width="0">s</text>
+        <text fill="#1b7ced" x="307.06947" y="107.86211" id="svg_7" font-size="24" font-family="'Open Sans'"
+            text-anchor="start" xml:space="preserve" stroke="#000"
+            transform="matrix(4.43271 0 0 4.43271 -871.909 -349.439)" font-weight="bold" font-style="normal"
+            stroke-width="0">!</text>
+        <text fill="#1b7ced" x="266.76177" y="173.44472" id="svg_8" font-size="24" font-family="'Open Sans'"
+            text-anchor="start" xml:space="preserve" stroke="#000"
+            transform="matrix(9.31667 0 0 9.31667 -1954.42 -1220.86)" font-weight="bold" font-style="normal"
+            stroke-width="0">4</text>
+        <text style="cursor: move;" fill="#1b7ced" x="242.18243" y="173.44472" id="svg_9" font-size="24"
+            font-family="'Open Sans'" text-anchor="start" xml:space="preserve" stroke="#000"
+            transform="matrix(9.31667 0 0 9.31667 -1954.42 -1220.86)" font-weight="bold" font-style="normal"
+            stroke-width="0">0</text>
+    </g>
+
+</svg>
