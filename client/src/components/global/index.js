@@ -9,13 +9,23 @@ export const Container = styled.div`
   align-items: center;
 `;
 
+export const CardsContainer = styled.div`
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+`;
+
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 10px auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 40%;
+  width: 30%;
   border-radius: 5px;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
@@ -24,16 +34,41 @@ export const Content = styled.div`
   }
 `;
 
-export const ContentBigger = styled.div`
+export const CommentContainer = styled.div`
   display: flex;
-  flex-direction: column;
-  margin: 10px;
+  flex-direction: column-reverse;
+  margin: 10px auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 75%;
+  width: 100%;
   border-radius: 5px;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
+  :hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  min-height: 45vh;
+  max-height: 45vh !important;
+`;
+
+export const ContentBigger = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  height: 60vh;
+  font-size: 24px !important;
+`;
+
+export const ContentSides = styled.div`
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  transition: 0.3s;
+  width: 75%;
+  height: 60vh;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   :hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
@@ -45,6 +80,8 @@ export const PostTitle = styled.span`
   background-image: linear-gradient(to bottom right, #009dff, #8cd3ff);
   color: white;
   padding: 10px 10px;
+  font-size: 20px;
+  font-weight: bolder;
 `;
 
 export const PostText = styled.span`
@@ -66,28 +103,10 @@ export const PostAuthor = styled.span`
 
 export const NavContainer = styled.div`
   position: relative;
-  width: 50%;
-  min-width: 300px;
+  width: 100%;
   height: 50px;
-  border: 10px solid transparent;
-  border-top: 10px solid #fffa;
-  border-left: 10px solid #fffa;
-  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25) inset;
+  border: 5px solid transparent;
   background-image: linear-gradient(to bottom right, #009dff, #8cd3ff);
-  margin: 30px 0;
-
-  ::after {
-    content: '';
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    width: 30%;
-    height: 49px;
-    border: 10px solid transparent;
-    border-bottom: 10px solid #fffa;
-    border-right: 10px solid #fffa;
-    transition: 0.3s linear all;
-  }
 `;
 
 export const Menu = styled.ul`
@@ -113,5 +132,39 @@ export const Menu = styled.ul`
     :hover {
       box-shadow: 0 50px 5px rgba(0, 0, 0, 0.15) inset;
     }
+  }
+`;
+
+export const Comment = styled.span`
+  font-size: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+`;
+
+export const AddCommentContainer = styled.div`
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  > input,
+  > button {
+    margin: 10px;
+    padding: 10px;
+  }
+  > button {
+    border: none;
+    background: linear-gradient(to bottom right, #009dff, #8cd3ff);
+    border-radius: 5px;
+    color: white;
+    :hover {
+      cursor: pointer;
+      background: linear-gradient(to bottom right, #8cd3ff, #009dff);
+    }
+  }
+  > input {
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 15px;
   }
 `;

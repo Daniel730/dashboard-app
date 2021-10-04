@@ -1,7 +1,7 @@
-import { PostAuthor, PostText, PostTitle } from '.';
+import { Comment, PostAuthor, PostText, PostTitle } from '.';
 
 export default function Text(props) {
-  const { postTitle, postAuthor, postText } = props;
+  const { postTitle, postAuthor, postText, comment } = props;
 
   if (postText) {
     const { text } = props;
@@ -16,5 +16,10 @@ export default function Text(props) {
   if (postAuthor) {
     const { username } = props;
     return <PostAuthor>{username}</PostAuthor>;
+  }
+
+  if (comment) {
+    const { text } = props;
+    return <Comment>{text}</Comment>;
   }
 }
