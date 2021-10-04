@@ -1,7 +1,7 @@
 import React from 'react';
 import { Content, ContentBigger } from '../global';
 import Text from '../global/Text';
-import { Formik, Form, Field, ErrorMessage, FormikProvider } from 'formik';
+import { Formik, Form, Field, ErrorMessage } from 'formik';
 
 export default function Card(props) {
   const { post, createPost, postGet } = props;
@@ -32,7 +32,7 @@ export default function Card(props) {
   if (postGet) {
     const { username, title, postText } = props;
     return (
-      <ContentBigger style={{ width: '80% !important' }}>
+      <ContentBigger>
         <Text postTitle title={title} />
         <Text postText text={postText} />
         <Text postAuthor username={username} />

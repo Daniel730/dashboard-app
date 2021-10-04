@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Card from '../components/Card';
 import { useHistory } from 'react-router';
+import { CardsContainer } from '../components/global';
 
 function Home() {
   const history = useHistory();
@@ -12,7 +13,7 @@ function Home() {
     });
   }, []);
   return (
-    <>
+    <CardsContainer>
       {listOfPosts.map((val, key) => {
         return (
           <Card
@@ -26,7 +27,7 @@ function Home() {
           />
         );
       })}
-    </>
+    </CardsContainer>
   );
 }
 
